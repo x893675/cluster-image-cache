@@ -22,6 +22,6 @@ jobs:
           - amd64
 name: runtime
 on:
-  schedule:
-    - cron: '*/30 * * * *'
+  # schedule:
+  #   - cron: '*/30 * * * *'
   workflow_dispatch:
